@@ -1,7 +1,13 @@
-import { greet } from "./utils/greet";
+import  PageBody  from "./PageBody";
+
+
+
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return <div>
+            <h1>Hi babies</h1>
+            <PageBody />
+        </div>;
 }
 
 export default App;
