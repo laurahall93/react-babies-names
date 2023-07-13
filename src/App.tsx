@@ -1,5 +1,5 @@
 import  PageBody  from "./PageBody";
-
+import "./styles.css";
 
 
 

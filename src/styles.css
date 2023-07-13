@@ -1,0 +1,44 @@
+html{
+    background-color: whitesmoke;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+body{
+padding: 30px;
+border-radius: 1%;
+border-top: 3px solid pink;
+border-left: 3px solid pink;
+border-right: 3px solid lightblue;
+border-bottom: 3px solid lightblue;
+
+}
+
+.all-names{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+.girls{
+    background-color: pink;
+    border-radius: 5%;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.boys{
+    background-color: lightblue;
+    border-radius: 5%;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 6px;
+    margin: 5px;
+}
+
+hr{
+    background-color: lightslategray;
+    opacity: 0.3;
+}
